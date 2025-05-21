@@ -1,0 +1,24 @@
+body {
+  margin: 0px;
+  display: grid;
+  grid-auto-rows: 120px;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+
+.sidemenu {
+  background-color: rgb(76, 121, 64);
+  height: 100vh;
+}
+
+
+.uppermenu {
+  background-color: rgb(243, 253, 253);
+}
+
+.dashboard {
+  background-color: rgb(211, 211, 211);
+  grid-row-start: 2;
+  grid-column: 2 / 5;
+  height: 100vh;
+}
