@@ -21,6 +21,9 @@ a:hover {
   font-weight: bold;
 }
 
+/*create 'insert-class'::before { png } 
+so png icon shows before link in sidemenu*/
+
 
 .uppermenu {
   position: relative;
