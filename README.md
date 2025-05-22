@@ -8,7 +8,7 @@ Solidify flexbox and grid skills
 Implement a easily traversed layout
 try something I'm not good at
 
-## Citations
+### Credits
 
 <a href="https://www.flaticon.com/free-icons/home-button" title="home button icons">Home button icon created by Freepik - Flaticon</a>
 
