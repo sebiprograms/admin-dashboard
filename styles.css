@@ -9,6 +9,16 @@ body {
 .sidemenu {
   background-color: rgb(68, 104, 59);
   height: 100vh;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  font-weight: bold;
 }
 
 
@@ -24,6 +34,6 @@ body {
   grid-row-start: 2;
   grid-column: 2 / 5;
   grid-row-end: end;
-  
+
   height: calc(100vh - 150px);
 }
