@@ -13,13 +13,17 @@ body {
 
 
 .uppermenu {
+  position: relative;
   background-color: rgb(255, 255, 255);
   grid-column: 2 / 5;
+  box-shadow: 2px 5px 5px 1px rgb(206, 211, 218);
 }
 
 .dashboard {
   background-color: rgba(226, 232, 240, 1);
   grid-row-start: 2;
   grid-column: 2 / 5;
-  height: 100vh;
+  grid-row-end: end;
+  
+  height: calc(100vh - 150px);
 }
