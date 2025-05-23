@@ -1,4 +1,28 @@
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
 body {
+  line-height: 1;
   margin: 0px;
   display: grid;
   grid-auto-rows: 150px;
@@ -10,7 +34,13 @@ body {
   background-color: rgb(68, 104, 59);
   height: 100vh;
   list-style: none;
+  display: grid;
+  grid-template-columns: auto;
+  grid-auto-flow: row;
+  gap: 15px;
 }
+
+
 
 a {
   text-decoration: none;
