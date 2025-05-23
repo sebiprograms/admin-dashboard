@@ -36,7 +36,7 @@ body {
   background-color: rgb(68, 104, 59);
   height: 100vh;
   display: grid;
-  grid-template-rows: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 75px);
   grid-template-columns: 250px;
   gap: 15px;
 }
@@ -69,7 +69,7 @@ body {
 }
 
 .sideoptions2 {
-  grid-row: 3;
+  grid-row: 5;
   display: flex;
   flex-direction: column;
   gap: 15px;
