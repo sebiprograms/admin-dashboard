@@ -138,3 +138,17 @@ a:hover {
   z-index: 1;
   box-shadow: 2px 5px 5px 1px rgb(206, 211, 218);
 }
+
+.searchbar>input {
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #292930;
+}
+
+.searchbar>svg {
+  fill: #292930;
+  width: 25px;
+  display: inline-block;
+  vertical-align: middle;
+}
