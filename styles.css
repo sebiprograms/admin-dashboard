@@ -39,9 +39,12 @@ body {
   grid-template-rows: repeat(4, 1fr);
   grid-template-columns: 250px;
   gap: 15px;
-  padding-left: 15px;
 }
 
+.pageheading {
+  padding-top: 10px;
+  padding-left: 15px;
+}
 .logo {
   display: inline-block;
   vertical-align: middle;
@@ -62,6 +65,7 @@ body {
   gap: 15px;
   width: 102px;
   margin-bottom: 10px;
+  padding-left: 20px;
 }
 
 .sideoptions2 {
@@ -70,6 +74,7 @@ body {
   flex-direction: column;
   gap: 15px;
   width: 102px;
+  padding-left: 20px;
 }
 
 
