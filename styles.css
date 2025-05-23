@@ -44,8 +44,11 @@ body {
   vertical-align: middle;
 }
 
-a {
+span {
   vertical-align: middle;
+}
+
+a {
   text-decoration: none;
   color: black;
 }
@@ -55,7 +58,7 @@ a:hover {
 }
 
 img {
-  width: 20px;
+  width: 25px;
 }
 
 .uppermenu {
