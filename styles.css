@@ -37,12 +37,15 @@ body {
   display: grid;
   grid-template-columns: auto;
   grid-auto-flow: row;
-  gap: 15px;
 }
 
-
+.icon {
+  display: inline-block;
+  vertical-align: middle;
+}
 
 a {
+  vertical-align: middle;
   text-decoration: none;
   color: black;
 }
@@ -51,9 +54,9 @@ a:hover {
   font-weight: bold;
 }
 
-/*create 'insert-class'::before { png } 
-so png icon shows before link in sidemenu*/
-
+img {
+  width: 20px;
+}
 
 .uppermenu {
   position: relative;
