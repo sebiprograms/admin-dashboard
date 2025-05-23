@@ -77,11 +77,18 @@ body {
   padding-left: 20px;
 }
 
-svg {
+.pageheading>svg {
   fill: white;
   display: inline-block;
   vertical-align: middle;
   width: 50px; 
+}
+
+svg {
+  fill: white;
+  display: inline-block;
+  vertical-align: middle;
+  width: 25px;  
 }
 
 
@@ -103,10 +110,6 @@ a {
 
 a:hover {
   font-weight: bold;
-}
-
-img {
-  width: 25px;
 }
 
 .dashboard {
