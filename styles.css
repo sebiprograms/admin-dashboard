@@ -36,23 +36,37 @@ body {
   background-color: rgb(68, 104, 59);
   height: 100vh;
   display: grid;
-  grid-template-columns: auto;
-  grid-auto-flow: row;
   grid-template-rows: repeat(4, 1fr);
+  grid-template-columns: 200px;
+  align-content: center;
+  gap: 15px;
 }
 
+
+
 .sideoptions1 {
+  grid-row-start: 2;
   display: flex;
   flex-direction: column;
   gap: 15px;
   justify-self: center;
+  width: 102px;
+  margin-bottom: 10px;
 }
 
 .sideoptions2 {
-  grid-row-start: 3;
+  grid-row: 4;
   display: flex;
   flex-direction: column;
+  gap: 15px;
   justify-self: center;
+  width: 102px;
+}
+
+.logo {
+  display: inline-block;
+  vertical-align: middle;
+  width: 50px; 
 }
 
 .icon {
