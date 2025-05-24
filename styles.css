@@ -231,6 +231,7 @@ a:hover {
 
 .upperuser>svg:hover {
   fill: #373741;
+  cursor: pointer;
 }
 
 .buttons {
