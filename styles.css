@@ -245,3 +245,8 @@ a:hover {
   height: 30px;
   margin: 5px;
 }
+
+.buttons>button:hover {
+  background-color: #373741;
+  cursor: pointer;
+}
