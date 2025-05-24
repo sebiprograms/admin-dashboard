@@ -262,10 +262,11 @@ a:hover {
   padding: 10px;
   grid-template: repeat(2, 235px) / repeat(auto-fill, clamp(220px, 250px, 300px));
   gap: 15px;
+  min-width: 530px;
 }
 
 .card {
-  width: clamp(220px, 250px, 300px);
+  width: 90%;
   height: 225px;
   border-radius: 5px;
   border-style: solid;
