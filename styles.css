@@ -228,3 +228,19 @@ a:hover {
   align-self: flex-start;
   fill: black;
 }
+
+.buttons {
+  display: flex;
+  justify-self: flex-end;
+  align-self: center;
+}
+
+.buttons>button {
+  border-radius: 5px;
+  border-style: none;
+  border-color: #292930;
+  background-color: #292930;
+  width: 75px;
+  height: 30px;
+  margin: 5px;
+}
