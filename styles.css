@@ -167,3 +167,10 @@ a:hover {
   vertical-align: middle;
 }
 
+.userinfo>.usericon {
+  border-radius: 30px;
+  width: 60px;
+  height: 60px;
+  background-image: url(./img/IMG_4200.jpg);
+  image
+}
