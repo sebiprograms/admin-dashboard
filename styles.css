@@ -62,8 +62,12 @@ body {
   width: 50px;
 }
 
-.pageheading>h2 {
+
+h2 {
   font-family: robo-regular;
+}
+
+.pageheading>h2 {
   font-weight: 500;
   display: inline-block;
   vertical-align: middle;
@@ -167,8 +171,32 @@ a:hover {
   vertical-align: middle;
 }
 
+.usericon {
+  display: inline-block;
+}
+
 .usericon>img {
   width: 60px;
   height: 60px;
   border-radius: 30px;
+}
+
+.welcome>span {
+  font-family: robo-regular;
+  color: black;
+}
+
+.welcome>h2 {
+  text-align: center;
+  margin: 0px;
+
+}
+
+.welcome {
+  align-content: center;
+  padding-left: 10px
+}
+
+.userinfo {
+  display: flex;
 }
