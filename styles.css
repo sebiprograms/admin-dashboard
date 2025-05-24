@@ -256,10 +256,19 @@ a:hover {
   cursor: pointer;
 }
 
+.dashboard {
+  font-family: robo-regular;
+  display: grid;
+  padding: 10px;
+  grid-template: repeat(2, 235px) / repeat(auto-fill, clamp(220px, 250px, 300px));
+  gap: 15px;
+}
+
 .card {
   width: clamp(220px, 250px, 300px);
-  height: 230px;
+  height: 225px;
   border-radius: 5px;
+  border-style: solid;
   border-color: #292930;
-  
+  padding: 5px;
 }
