@@ -36,7 +36,7 @@ body {
   margin: 0px;
   display: grid;
   grid-auto-rows: 150px;
-  grid-template-columns:  220px repeat(3, 1fr);
+  grid-template-columns: 220px repeat(3, 1fr);
   height: 100vh;
   width: 100vw;
 }
@@ -55,10 +55,11 @@ body {
   padding-top: 10px;
   padding-left: 15px;
 }
+
 .logo {
   display: inline-block;
   vertical-align: middle;
-  width: 50px; 
+  width: 50px;
 }
 
 .pageheading>h2 {
@@ -93,14 +94,14 @@ body {
   fill: white;
   display: inline-block;
   vertical-align: middle;
-  width: 50px; 
+  width: 50px;
 }
 
 svg {
   fill: white;
   display: inline-block;
   vertical-align: middle;
-  width: 25px;  
+  width: 25px;
 }
 
 
@@ -133,12 +134,17 @@ a:hover {
 
 .uppermenu {
   background-color: rgb(255, 255, 255);
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 60px 60px;
   grid-row-start: 1;
   grid-column: 2 / 5;
   z-index: 1;
   box-shadow: 2px 5px 5px 1px rgb(206, 211, 218);
   padding: 15px 20px 15px 20px;
 }
+
+
 
 .searchbar>input {
   border-radius: 10px;
@@ -160,3 +166,4 @@ a:hover {
   display: inline-block;
   vertical-align: middle;
 }
+
