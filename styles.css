@@ -284,6 +284,10 @@ a:hover {
   padding-left: 20px;
 }
 
+.card:hover {
+  box-shadow: rgb(92, 94, 97) 4px 5px 15px;
+}
+
 .card>h2 {
   font-size: large;
   color: #1f1f24;
