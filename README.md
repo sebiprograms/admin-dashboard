@@ -8,3 +8,5 @@ A admin dashboard created to practice my css display grid and flex skills. Also 
 - [x] Apply custom styling with vanilla css
 - [x] Try something I wasn't familiar with (using svgs for customizable themes & grid)
 
+### Live Preview 
+Live [Preview](https://sebiprograms.github.io/admin-dashboard/)
