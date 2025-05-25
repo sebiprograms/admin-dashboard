@@ -259,17 +259,32 @@ a:hover {
 .dashboard {
   font-family: robo-regular;
   display: grid;
-  padding: 10px;
-  grid-template: repeat(2, 235px) / repeat(auto-fill, clamp(220px, 250px, 300px));
-  gap: 15px;
-  min-width: 530px;
+  padding: 15px;
+  grid-template: repeat(2, 235px) / repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  min-width: 580px;
 }
 
 .card {
-  width: 90%;
+  min-width: 260px;
+  max-width: 330px;
+  background-color: white;
   height: 225px;
   border-radius: 5px;
   border-style: solid;
   border-color: #292930;
   padding: 5px;
+  border-left-width: 6px;
+  box-shadow: rgb(111, 113, 117) 2px 2px 10px;
+  padding-left: 20px;
+}
+
+.card>h2 {
+  font-size: large;
+  color: #1f1f24;
+}
+
+p {
+  font-size: 1em;
+  color: #292930;
 }
