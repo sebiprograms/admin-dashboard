@@ -166,6 +166,13 @@ a:hover {
   height: 18px;
 }
 
+.searchbar>input:focus {
+  border: 1px solid rgb(202, 208, 216);
+  outline: none; 
+}
+
+
+
 .searchbar>input:hover {
   background-color: rgb(215, 220, 228);
 }
