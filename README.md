@@ -1,10 +1,10 @@
 # admin-dashboard
 
-Creating a admin dashboard mixing display types flexbox and grid
+A admin dashboard created to practice my css display grid and flex skills. Also continued building understanding of html elements and inheritance. 
 
 ## goals
 
--Solidify flexbox and grid skills
--Implement a easily traversed layout
--try something I'm not good at
+- [x] Use Flexbox & Grid for a responsive design 
+- [x] Apply custom styling with vanilla css
+- [x] Try something I wasn't familiar with (using svgs for customizable themes & grid)
 
